@@ -1,0 +1,16 @@
+@import url('https://fonts.googleapis.com/css2?family=Orbitron:wght@400;700;900&family=Rajdhani:wght@400;600;700&display=swap');
+
+#app{
+    display:flex;
+    justify-content:center;
+    align-items:center;
+}
+
+#app canvas{
+    display:block;
+    margin:auto;
+
+    box-shadow:
+      0 0 40px rgba(0,255,204,.1),
+      0 0 90px rgba(0,100,255,.05);
+}
