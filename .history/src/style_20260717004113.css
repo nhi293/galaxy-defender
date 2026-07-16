@@ -15,12 +15,8 @@
 /* Desktop: giới hạn chiều cao để không bị crop */
 @media (min-width: 520px) {
   #app canvas {
-    box-shadow:
-        0 0 40px rgba(0,255,204,.1),
-        0 0 90px rgba(0,100,255,.05);
-
-    border-radius: 4px;
-}
+    max-height: 100vh;
+  }
 }
 
 /* Landscape mobile: full height */

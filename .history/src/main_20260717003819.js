@@ -30,11 +30,6 @@ const config = {
     width: GAME.WIDTH,
     height: GAME.HEIGHT
 },
-render: {
-    antialias: true,
-    pixelArt: false,
-    roundPixels: false
-},
     input: {
         activePointers: 1
     },

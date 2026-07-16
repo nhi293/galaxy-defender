@@ -29,12 +29,7 @@ const config = {
     autoCenter: Phaser.Scale.CENTER_BOTH,
     width: GAME.WIDTH,
     height: GAME.HEIGHT
-},
-render: {
-    antialias: true,
-    pixelArt: false,
-    roundPixels: false
-},
+}
     input: {
         activePointers: 1
     },

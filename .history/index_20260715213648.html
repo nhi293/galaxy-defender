@@ -10,40 +10,30 @@
     <link href="https://fonts.googleapis.com/css2?family=Orbitron:wght@400;700;900&family=Rajdhani:wght@400;600;700&display=swap" rel="stylesheet">
     <title>Galaxy Defender</title>
     <style>
-      body,
-html {
-    margin: 0;
-    padding: 0;
-    width: 100%;
-    height: 100%;
-    background: #000;
-    overflow: hidden;
-
-    display: flex;
-    justify-content: center;
-    align-items: center;
-
-    touch-action: none;
-
-    font-family: 'Orbitron', 'Rajdhani', sans-serif;
-}
-
-#app {
-    width: 100vw;
-    height: 100vh;
-
-    display: flex;
-    justify-content: center;
-    align-items: center;
-
-    overflow: hidden;
-}
-
-/* KHÔNG ép Phaser resize */
-canvas {
-    display: block;
-    touch-action: none;
-}
+      body, html {
+        margin: 0;
+        padding: 0;
+        width: 100%;
+        height: 100%;
+        background-color: #000;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        touch-action: none;
+        font-family: 'Orbitron', 'Rajdhani', sans-serif;
+      }
+      #app {
+        position: relative;
+        width: 100vw;
+        height: 100vh;
+        overflow: hidden;
+      }
+      canvas {
+        display: block;
+        width: 100% !important;
+        height: 100% !important;
+        touch-action: none;
+      }
     </style>
   </head>
   <body>
