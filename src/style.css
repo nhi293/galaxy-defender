@@ -1,0 +1,27 @@
+/* ============================================================
+   style.css – Galaxy Defender global styles
+   ============================================================ */
+
+@import url('https://fonts.googleapis.com/css2?family=Orbitron:wght@400;700;900&family=Rajdhani:wght@400;600;700&display=swap');
+
+/* Phaser canvas container */
+#app canvas {
+  box-shadow:
+    0 0 40px rgba(0, 255, 204, 0.10),
+    0 0 90px rgba(0, 100, 255, 0.05);
+  border-radius: 2px;
+}
+
+/* Desktop: giới hạn chiều cao để không bị crop */
+@media (min-width: 520px) {
+  #app canvas {
+    max-height: 100vh;
+  }
+}
+
+/* Landscape mobile: full height */
+@media (max-height: 500px) and (orientation: landscape) {
+  #app {
+    align-items: flex-start;
+  }
+}
